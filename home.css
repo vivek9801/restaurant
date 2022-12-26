@@ -1,0 +1,127 @@
+div{
+    float:left;
+ }
+nav{
+    background-color:darkgray;  
+     border-radius: 10px;
+    height: 50px;
+    margin-top: 2%;
+  }
+  .nav .li{
+      list-style: none;
+      float: left;
+      padding-inline-end: 10px;
+      padding-right: 10px;
+  }
+  .nav .ul{
+      overflow: auto;
+      float:right;
+      padding-right: 50px;
+  }
+  .li{
+      color: blue;
+      transition: all 0.3s;
+      border-radius: 13px;
+
+  }
+  .loco{
+      color:black;
+      line-height: 50px;
+      padding-left: 10px;
+      font-weight: bold;
+  }
+
+  .nav .ul input{
+      border-radius: 50px;
+      box-shadow: inset;
+      padding-left: 10px;
+  }
+  .a:hover{
+      
+      color: red;
+  }
+  .a{
+      text-decoration: none;
+  }
+
+ 
+ table{
+  margin-top: 100px;
+  margin-left: 100px;
+ }
+ .s{
+  border: 10px solid;
+   }
+.x{
+padding-top: 0px;
+}
+.n{
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+}
+ .b{
+    text-decoration: none;
+    color: black;
+ }
+ .c{
+    border-image: round;
+ }
+   #a{
+    font-style: none;
+    text-decoration: none;
+    color: black;
+   }
+   #q{
+
+   }
+   #td1{
+    border: 5px solid red;
+  
+   }
+   #td2{
+    border: 5px solid green;
+    }
+    .n:hover{
+        color: blue;
+    }
+    .o{
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+    }
+   #o:hover{
+    color: yellow;
+   }
+   #a:hover{
+                color:green;
+   }
+   .img1{
+border-radius: 100px;
+   }
+ footer{
+    background-color: gray;
+    color:aqua;
+    border-radius: 10px;
+    height: 25px;
+}
+ footer p{
+    font-size: larger;
+    padding-top: 2px;
+    text-align: center;
+ }
+ body{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: auto;
+ }
+ .p{
+    float: right;
+    display: flex;
+    box-sizing: border-box;
+   
+ }
+ .name{
+padding-top: 5px;
+ }

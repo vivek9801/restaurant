@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+    table{
+       
+       
+        background-repeat: no-repeat;
+         background-size: cover;  
+    }
+    .o{
+        padding-left: 100px;
+    }
+    .l{
+        padding-left: 100px;
+    }
+    p{
+        
+    }
+    body{
+       
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 align="center">MENU</h1>
+     <table cellspacing="10">
+        <tr>
+            <td><img src="chole.jpg" alt="no found" height="100" width="100"></td>
+            <td><P>CHOLE BHATURE</P></td>
+            <td class="o">
+            <select id="s">
+                <option value="1 chole bhature order sucessfully">1</option>
+                <option value="2 chole bhature order sucessfully">2</option>
+                <option value="3 chole bhature order sucessfully">3</option>
+                <option value="4 chole bhature order sucessfully">4</option>
+                <option value="5 chole bhature order sucessfully">5</option>
+            </select>
+            </td>
+            <td><input type="button" onclick="g()" value="order now"></td>
+        </tr>
+        <tr>
+            <td><img src="punjabi_palak.jpg" alt="no found" height="100" width="100"></td>
+            <td><P>PUNJABI PALAK</P></td>
+            <td class="l">
+            <select id="p">
+                <option value="1 punjabi palak order sucessfully">1</option>
+                <option value="2 punjabi palak order sucessfully">2</option>
+                <option value="3 punjabi palak order sucessfully">3</option>
+                <option value="4 punjabi palak order sucessfully">4</option>
+                <option value="5 punjabi palak order sucessfully">5</option>
+            </select>
+            </td>
+            <td><input type="button" onclick="f()" value="order now"></td>
+        </tr>
+        <tr >
+            <td colspan="4" align="center"><input type="button" value="union order" onclick="u()"></td>
+        </tr>
+</table>
+</center>
+
+<script>
+    
+    function g() {
+        var x = document.getElementById("s").value;
+        
+        alert(x);
+        
+      }
+      function f() {
+        var y = document.getElementById("p").value;
+        alert(y);
+      }
+      function u() {
+        var x = document.getElementById("s").value;
+        var y = document.getElementById("p").value;
+        alert(x+ " AND "  +y);
+      }
+
+</script>
+</body>
+</html>
